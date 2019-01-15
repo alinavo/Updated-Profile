@@ -93,7 +93,7 @@
 }
 
 .active {
-    color: #388e3c;
+    color: #579b5b;
 }
 
 
@@ -103,7 +103,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-
   main {
     flex: 1 0 auto;
   }
@@ -130,48 +129,91 @@ body {
         font-weight: lighter;
       }
 
-      /* label focus color */
-      .icon-prefix:focus + label {
-        color: blue;
-      }
-      /* label underline focus color */
-      .icon-prefix input:focus {
-        border-bottom: 1px solid  green;
-        box-shadow: 0 1px 0 0 green;
-      }
-      /* valid color */
-      .input-field input[type=text].valid {
-        border-bottom: 1px solid #000;
-        box-shadow: 0 1px 0 0 #000;
-      }
-      /* invalid color */
-      .input-field input[type=text].invalid {
-        border-bottom: 1px solid #000;
-        box-shadow: 0 1px 0 0 #000;
-      }
-      /* icon prefix focus color */
-      .input-field .prefix.active {
-        color:  yellow;
-      }
-           
+      /* submit button on contact page */
       #submit-btn {
-          background-color: white;
-          color: #388e3c;
-          box-shadow: none;
-          font-family: AveriaSerif-Bold;
+        background-color: white;
+        color: #388e3c;
+        box-shadow: none;
+        font-family: AveriaSerif-Bold;
         padding-top: 0px;
         letter-spacing: 3px;
         font-size: 18px;
         text-transform: lowercase;
-
       }
 
-
-             
+    /* hover effect on submit button */
       #submit-btn:hover {
         background-image: url('./images/green.png');
         background-repeat: none;
         background-size: 100%;
         color: white;
         font-weight: bold;
+    }
+
+    /* porfolio page */
+
+    .card{
+        border: none;
+    }
+
+    .card-action {
+        border-bottom: solid 1px #388e3c;  
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    b{
+        font-family: AveriaSerif-Bold;
+        color: #388e3c; 
+        font-size: 18px;
+    }
+
+    #card-demo{
+        display: inline-block;
+        font-family: AveriaSerif-Light;
+        text-transform: lowercase;
+        letter-spacing: 3px;
+        color: #388e3c; 
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    #card-repo{
+        display: inline-block;
+        font-family: AveriaSerif-Light;
+        text-transform: lowercase;
+        letter-spacing: 3px;
+        color: #388e3c; 
+        margin-right: 0px;
+        padding-right: 0px;
+
+    }
+
+
+   
+    #card-demo:hover {
+        border-bottom: solid 1px #388e3c;
+        background-image: url('./images/green.png');
+        background-size: 150%;
+        background-repeat: none;
+        padding-bottom: 0px;
+        color: white;
+        font-weight: bold;
+    }
+    #card-repo:hover {
+        border-bottom: solid 1px #388e3c;
+        background-image: url('./images/green.png');
+        background-size: 150%;
+        background-repeat: none;
+        padding-bottom: 0px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .card-content {
+        font-family: AveriaSerif-Light;
+
     }
