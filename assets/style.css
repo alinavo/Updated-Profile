@@ -130,36 +130,15 @@ body {
 
 
   /* contact page */
+#email{
 
-    /* label color */
-    .input-field  {
-        color: green;
-        font-family: AveriaSerif-Light;
-        letter-spacing: 3px;
-        font-size: 16px;
-        font-weight: lighter;
-      }
+    height: 50px;
+}
 
-      /* submit button on contact page */
-      #submit-btn {
-        background-color: white;
-        color: #388e3c;
-        box-shadow: none;
-        font-family: AveriaSerif-Bold;
-        padding-top: 0px;
-        letter-spacing: 3px;
-        font-size: 18px;
-        text-transform: lowercase;
-      }
+#phone{
+height: 50px;
+}
 
-    /* hover effect on submit button */
-      #submit-btn:hover {
-        background-image: url('./images/green.png');
-        background-repeat: none;
-        background-size: 100%;
-        color: white;
-        font-weight: bold;
-    }
 
     /* porfolio page */
 
