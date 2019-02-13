@@ -133,6 +133,19 @@ body {
 #email{
 
     height: 50px;
+    display: inline;
+}
+
+#emailInfo{
+    font-size: 30px;
+    font-family: AveriaSerif-Bold;
+    text-align: center;
+}
+
+#phoneNumber{
+    font-size: 30px;
+    font-family: AveriaSerif-Bold;
+    text-align: center;
 }
 
 #phone{
@@ -175,7 +188,6 @@ height: 50px;
         font-family: AveriaSerif-Light;
         text-transform: lowercase;
         letter-spacing: 3px;
-        color: #388e3c; 
         margin-right: 0px;
         padding-right: 0px;
     }
